@@ -1,8 +1,12 @@
 // nesse momento, os únicos componentes que desenvolvi foram o Header, Footer e Food.
 // abaixo, vou importar esses componentes e adicionar ao App.jsx.
-import Header from './Header'
-import Footer from './Footer'
-import Food from './Food'
+
+// import Header from './Header'
+// import Footer from './Footer'
+// import Food from './Food'
+import Card from './Card';
+
+
 
 // início do componente App
 function App() {
@@ -13,9 +17,7 @@ function App() {
     // então, se eu quiser retornar mais de um elemento, eu preciso envolvê-los
     // em um elemento pai. (nesse caso, estou envolvendo em um fragment <> </>).
     <>
-      <Header/>
-      <Food/>
-      <Footer/>
+      <Card/>
     </>
   );
 
